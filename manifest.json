@@ -1,0 +1,25 @@
+{
+  "name": "Doshisha University Auto Login",
+  "description": "同志社大学の二段階認証を自動でログインするChrome拡張機能です。",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "author": "tra",
+  "content_scripts": [
+    {
+      "matches": ["https://idp.doshisha.ac.jp/idp/Authn/External?conversation*"],
+      "js": ["js/content_script_image.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://idp.doshisha.ac.jp/idp/profile/SAML2/Redirect/SSO?execution*"],
+      "js": ["js/content_script_select.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
