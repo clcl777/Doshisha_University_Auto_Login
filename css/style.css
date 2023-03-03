@@ -1,0 +1,60 @@
+body {
+    width: 500px;
+    height: 450px;
+}
+
+.image_sample {
+    width: 100px;
+    height: 100px;
+}
+
+.input_imgdiv_class {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid black;
+    background-color: white;
+    width: 85px;
+    height: 45px;
+    line-height: 1.0;
+    border: 2px solid #888888;
+    float: left;
+}
+
+.select_image:hover {
+    /* border: 2px solid #000000; */
+    background-color: #888888;
+}
+
+.row {
+    float: top;
+}
+
+#imatrix_div {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    width: max-content;
+    height: min-content;
+    border: black 1px solid;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#selected-img {
+    top: 320px;
+    left: 45px;
+    height: 49px;
+    width: 356px;
+    position: absolute;
+    border: green 4px solid;
+}
+
+#button_panel {
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    width: 400px;
+    height: 30px;
+    margin: 0 0;
+    padding: 0 0;
+}

@@ -7,7 +7,6 @@ function main(e) {
         if (document.getElementsByClassName(buttonClassName).length == 3) {
             clearInterval(jsInitCheckTimer);
             document.getElementsByClassName(buttonClassName)[0].click();
-            // console.log("Hello, world!")
         };
     }
 }

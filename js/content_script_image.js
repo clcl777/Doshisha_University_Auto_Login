@@ -7,6 +7,7 @@ function main(e) {
             clearInterval(jsInitCheckTimer);
             // document.getElementById("button0").click();
             // console.log(getButtonID(17));
+            // 同志社マーク三つ
             ID1 = getButtonID(17)
             document.getElementById(ID1).click();
             ID2 = getButtonID(17)
