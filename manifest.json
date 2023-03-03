@@ -11,13 +11,13 @@
   "content_scripts": [
     {
       "matches": ["https://idp.doshisha.ac.jp/idp/Authn/External?conversation*"],
-      "js": ["js/content_script_image.js"],
+      "js": ["js/content-script-image-matrix.js"],
       "run_at": "document_end",
       "all_frames": true
     },
     {
       "matches": ["https://idp.doshisha.ac.jp/idp/profile/SAML2/Redirect/SSO?execution*"],
-      "js": ["js/content_script_select.js"],
+      "js": ["js/content-script-select-login.js"],
       "run_at": "document_end",
       "all_frames": true
     }

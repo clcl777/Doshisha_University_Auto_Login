@@ -3,7 +3,6 @@ var imgOrder = 0;
 
 chrome.storage.sync.get(["keyImgNumList"], function (items) {
     imgNumList = items.keyImgNumList;
-    console.log(imgNumList);
     if (imgNumList === undefined) {
         imgNumList = [];
     } else {

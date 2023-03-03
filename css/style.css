@@ -46,7 +46,7 @@ body {
     height: 49px;
     width: 356px;
     position: absolute;
-    border: green 4px solid;
+    border: rgb(96, 32, 118) 4px solid;
 }
 
 #button_panel {
