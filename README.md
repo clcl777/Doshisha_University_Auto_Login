@@ -7,3 +7,6 @@
 
 ## 使用言語・フレームワーク
 HTML, CSS, JavaScript(jQuery)
+
+## プライバシーポリシー
+https://clcl777.github.io/Doshisha_University_Auto_Login/PrivacyPolicy
