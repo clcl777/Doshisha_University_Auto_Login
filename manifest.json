@@ -3,7 +3,7 @@
   "description": "同志社大学の二段階認証を自動でログインするChrome拡張機能です。",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["scripting", "storage"],
   "action": {
     "default_popup": "popup.html"
   },
