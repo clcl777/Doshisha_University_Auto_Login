@@ -45,8 +45,10 @@ ChromeStorageeには保存期間が存在しないためデータの保存期間
 
 #### 問い合わせ先
 拡張機能、又は個人情報の取扱いに関しては、下記のメールアドレスにてお問い合わせください。
-
 メールアドレス：lbsnow777@gmail.com
+
+ソースコードは以下で公開しています。
+https://github.com/clcl777/Doshisha_University_Auto_Login/
 
 ## 策定日
 2023年3月6日　策定  
